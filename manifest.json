@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Quote Meaning Generator",
+    "version": "1.0",
+    "description": "Get a random quote and its meaning using Gemini AI.",
+    "action": {
+      "default_popup": "index.html"
+    },
+    "permissions": [],
+    "host_permissions": [
+      "https://api.api-ninjas.com/*",
+      "https://generativelanguage.googleapis.com/*"
+    ]
+  }
